@@ -185,7 +185,7 @@ header{
 
 .row {
   display: -ms-flexbox; /* IE10 */
-  display: flex;
+  display: flex !important;
   -ms-flex-wrap: wrap; /* IE10 */
   flex-wrap: wrap;
   padding: 0 4px;
@@ -193,7 +193,7 @@ header{
 
 .column {
   -ms-flex: 25%; /* IE10 */
-  flex: 25%;
+  flex: 25% !important;
   max-width: 25%;
   padding: 0 4px;
 }
@@ -202,12 +202,6 @@ header{
   margin-top: 8px;
   vertical-align: middle;
   width: 100%;
-}
-
-.back::before {
-  content: ' \21E6';
-  display: inline;
-  color: #5385b8;
 }
 
 .modal{
